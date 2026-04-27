@@ -1,4 +1,4 @@
-# amazon-pricing-sales-dashboard
+
 # Amazon Pricing and Sales Dashboard
 
 ## Project Overview
