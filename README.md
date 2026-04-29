@@ -54,41 +54,26 @@ This project uses Python for data cleaning and feature engineering, SQL for data
 
 ## Project Structure
 
-amazon-pricing-sales-dashboard/
-│
-├── data/
-│        processed
-│        amazon_cleaned.csv
-│        product_level.csv
-│        review_level.csv
-│        product_level_scored.csv
-│        category_summary.csv
-│        segment_summary.csv
-│        review_level_scored.csv
-│        product_dashboard_dataset.csv
-│
-├── scripts/
-│    amazon.py
-│
-├── notebooks/
-│    eda_feature_engineering.ipynb
-│    review_analysis_scoring.ipynb
-│
-├── sql/
-│    Query.sql
-│
-├── powerbi/
-│    amazon_pricing_sales_dashboard.pbix
-│
-├── dashboard/
-│    screenshots/
-│        executive_overview.png
-│        pricing_efficiency.png
-│        product_opportunity.png
-│        review_insights.png
-│
- reports
- final_report.pdf
+| Folder / File | Description |
+|---|---|
+| `data/processed/amazon_cleaned.csv` | Cleaned Amazon product dataset |
+| `data/processed/product_level.csv` | Product-level analysis table |
+| `data/processed/review_level.csv` | Review-level analysis table |
+| `data/processed/product_level_scored.csv` | Product performance scoring result |
+| `data/processed/category_summary.csv` | Category-level summary table |
+| `data/processed/segment_summary.csv` | Product segment summary table |
+| `data/processed/review_level_scored.csv` | Review sentiment scoring result |
+| `data/processed/product_dashboard_dataset.csv` | Final dataset used for the Power BI dashboard |
+| `scripts/amazon.py` | Python script for data cleaning and processing |
+| `notebooks/eda_feature_engineering.ipynb` | Exploratory data analysis and feature engineering notebook |
+| `notebooks/review_analysis_scoring.ipynb` | Review analysis and sentiment scoring notebook |
+| `sql/Query.sql` | SQL queries for product and sales analysis |
+| `powerbi/amazon_pricing_sales_dashboard.pbix` | Power BI dashboard file |
+| `dashboard/screenshots/executive_overview.png` | Dashboard overview page screenshot |
+| `dashboard/screenshots/pricing_efficiency.png` | Pricing and discount analysis screenshot |
+| `dashboard/screenshots/product_opportunity.png` | Product opportunity analysis screenshot |
+| `dashboard/screenshots/review_insights.png` | Review and sentiment insights screenshot |
+| `reports/final_report.pdf` | Final project report |
 
 ## Key Features
 - Data cleaning and type conversion
