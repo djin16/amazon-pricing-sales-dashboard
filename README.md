@@ -57,38 +57,38 @@ This project uses Python for data cleaning and feature engineering, SQL for data
 amazon-pricing-sales-dashboard/
 │
 ├── data/
-│   └── processed/
-│       ├── amazon_cleaned.csv
-│       ├── product_level.csv
-│       ├── review_level.csv
-│       ├── product_level_scored.csv
-│       ├── category_summary.csv
-│       ├── segment_summary.csv
-│       ├── review_level_scored.csv
-│       └── product_dashboard_dataset.csv
+│        processed
+│        amazon_cleaned.csv
+│        product_level.csv
+│        review_level.csv
+│        product_level_scored.csv
+│        category_summary.csv
+│        segment_summary.csv
+│        review_level_scored.csv
+│        product_dashboard_dataset.csv
 │
 ├── scripts/
-│   └── amazon.py
+│    amazon.py
 │
 ├── notebooks/
-│   ├── eda_feature_engineering.ipynb
-│   └── review_analysis_scoring.ipynb
+│    eda_feature_engineering.ipynb
+│    review_analysis_scoring.ipynb
 │
 ├── sql/
-│   └── Query.sql
+│    Query.sql
 │
 ├── powerbi/
-│   └── amazon_pricing_sales_dashboard.pbix
+│    amazon_pricing_sales_dashboard.pbix
 │
 ├── dashboard/
-│   └── screenshots/
-│       ├── executive_overview.png
-│       ├── pricing_efficiency.png
-│       ├── product_opportunity.png
-│       └── review_insights.png
+│    screenshots/
+│        executive_overview.png
+│        pricing_efficiency.png
+│        product_opportunity.png
+│        review_insights.png
 │
-├── reports/
-│   └── final_report.pdf
+ reports
+ final_report.pdf
 
 ## Key Features
 - Data cleaning and type conversion
